@@ -1,0 +1,60 @@
+.main-sidebar-container {
+  flex: 0.8;
+  background-color: #fff;
+  height: 100vh;
+  width: 100%;
+  max-width: 350px;
+  font-family: "Inter", sans-serif;
+}
+
+.li-container {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+  color: #000;
+}
+.li-active {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+  color: #afafaf;
+}
+
+.logo {
+  margin-bottom: 50px;
+}
+
+.quick-menu {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: #808080;
+}
+.menu {
+}
+.ul-container {
+  margin-top: 38px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 10px 30px;
+  justify-content: center;
+}

@@ -1,0 +1,315 @@
+import badge from "../assets/badge.svg";
+import failed from "../assets/Text.svg";
+import Avatar1 from "../assets/Avatar1.svg";
+import Avatar2 from "../assets/Avatar2.svg";
+import Avatar from "../assets/tableAvatar.svg";
+
+import boxMoney from "../assets/box-money.svg";
+import boxTransaction from "../assets/box-transaction.svg";
+import boxWallet from "../assets/box-wallet.svg";
+import red from "../assets/red-Icon.svg";
+import green from "../assets/green-Icon.svg";
+
+import group1 from "../assets/group1.svg";
+import group2 from "../assets/group2.svg";
+export const data = [
+  {
+    img: Avatar1,
+    heading: "Olivia Rhye",
+    number: "+234 803 0000",
+    deposit: "NGN 34,600",
+    date: "Jan 6, 2022 • 09:21",
+    voucher: "00437E",
+    success: badge,
+    model: "Mazda - Model Q",
+  },
+  {
+    img: Avatar1,
+    heading: "Olivia Rhye",
+    number: "+234 803 0000",
+    deposit: "NGN 34,600",
+    date: "Jan 6, 2022 • 09:21",
+    voucher: "00437E",
+    success: badge,
+    model: "Mazda - Model Q",
+  },
+  {
+    img: Avatar1,
+    heading: "Olivia Rhye",
+    number: "+234 803 0000",
+    deposit: "NGN 34,600",
+    date: "Jan 6, 2022 • 09:21",
+    voucher: "00437E",
+    success: badge,
+    model: "Mazda - Model Q",
+  },
+  {
+    img: Avatar1,
+    heading: "Olivia Rhye",
+    number: "+234 803 0000",
+    deposit: "NGN 34,600",
+    date: "Jan 6, 2022 • 09:21",
+    voucher: "00437E",
+    success: badge,
+    model: "Mazda - Model Q",
+  },
+  {
+    img: Avatar1,
+    heading: "Olivia Rhye",
+    number: "+234 803 0000",
+    deposit: "NGN 34,600",
+    date: "Jan 6, 2022 • 09:21",
+    voucher: "00437E",
+    success: badge,
+    model: "Mazda - Model Q",
+  },
+  {
+    img: Avatar1,
+    heading: "Olivia Rhye",
+    number: "+234 803 0000",
+    deposit: "NGN 34,600",
+    date: "Jan 6, 2022 • 09:21",
+    voucher: "00437E",
+    success: badge,
+    model: "Mazda - Model Q",
+  },
+  {
+    img: Avatar,
+    heading: "Phoenix Baker",
+    number: "+234 803 0000",
+    deposit: "NGN 27,800",
+    date: "Jan 6, 2022 • 09:21",
+    voucher: "60921V",
+    success: badge,
+    model: "Mazda - Model Q",
+  },
+  {
+    img: Avatar2,
+    heading: "Phoenix Baker",
+    number: "+234 803 0000",
+    deposit: "NGN 27,800",
+    date: "Jan 6, 2022 • 09:21",
+    voucher: "69942Z",
+    success: failed,
+    model: "Mazda - Model Q",
+  },
+  {
+    img: Avatar2,
+    heading: "Phoenix Baker",
+    number: "+234 803 0000",
+    deposit: "NGN 27,800",
+    date: "Jan 6, 2022 • 09:21",
+    voucher: "69942Z",
+    success: failed,
+    model: "Mazda - Model Q",
+  },
+  {
+    img: Avatar2,
+    heading: "Phoenix Baker",
+    number: "+234 803 0000",
+    deposit: "NGN 27,800",
+    date: "Jan 6, 2022 • 09:21",
+    voucher: "69942Z",
+    success: failed,
+    model: "Mazda - Model Q",
+  },
+  {
+    img: Avatar2,
+    heading: "Phoenix Baker",
+    number: "+234 803 0000",
+    deposit: "NGN 27,800",
+    date: "Jan 6, 2022 • 09:21",
+    voucher: "69942Z",
+    success: failed,
+    model: "Mazda - Model Q",
+  },
+  {
+    img: Avatar2,
+    heading: "Phoenix Baker",
+    number: "+234 803 0000",
+    deposit: "NGN 27,800",
+    date: "Jan 6, 2022 • 09:21",
+    voucher: "69942Z",
+    success: failed,
+    model: "Mazda - Model Q",
+  },
+  {
+    img: Avatar2,
+    heading: "Phoenix Baker",
+    number: "+234 803 0000",
+    deposit: "NGN 27,800",
+    date: "Jan 6, 2022 • 09:21",
+    voucher: "69942Z",
+    success: failed,
+    model: "Mazda - Model Q",
+  },
+  {
+    img: Avatar2,
+    heading: "Phoenix Baker",
+    number: "+234 803 0000",
+    deposit: "NGN 27,800",
+    date: "Jan 6, 2022 • 09:21",
+    voucher: "69942Z",
+    success: failed,
+    model: "Mazda - Model Q",
+  },
+  {
+    img: Avatar2,
+    heading: "Phoenix Baker",
+    number: "+234 803 0000",
+    deposit: "NGN 27,800",
+    date: "Jan 6, 2022 • 09:21",
+    voucher: "69942Z",
+    success: failed,
+    model: "Mazda - Model Q",
+  },
+  {
+    img: Avatar2,
+    heading: "Phoenix Baker",
+    number: "+234 803 0000",
+    deposit: "NGN 27,800",
+    date: "Jan 6, 2022 • 09:21",
+    voucher: "69942Z",
+    success: failed,
+    model: "Mazda - Model Q",
+  },
+  {
+    img: Avatar2,
+    heading: "Phoenix Baker",
+    number: "+234 803 0000",
+    deposit: "NGN 27,800",
+    date: "Jan 6, 2022 • 09:21",
+    voucher: "69942Z",
+    success: failed,
+    model: "Mazda - Model Q",
+  },
+  {
+    img: Avatar2,
+    heading: "Phoenix Baker",
+    number: "+234 803 0000",
+    deposit: "NGN 27,800",
+    date: "Jan 6, 2022 • 09:21",
+    voucher: "69942Z",
+    success: failed,
+    model: "Mazda - Model Q",
+  },
+  {
+    img: Avatar2,
+    heading: "Phoenix Baker",
+    number: "+234 803 0000",
+    deposit: "NGN 27,800",
+    date: "Jan 6, 2022 • 09:21",
+    voucher: "69942Z",
+    success: failed,
+    model: "Mazda - Model Q",
+  },
+  {
+    img: Avatar2,
+    heading: "Phoenix Baker",
+    number: "+234 803 0000",
+    deposit: "NGN 27,800",
+    date: "Jan 6, 2022 • 09:21",
+    voucher: "69942Z",
+    success: failed,
+    model: "Mazda - Model Q",
+  },
+  {
+    img: Avatar2,
+    heading: "Phoenix Baker",
+    number: "+234 803 0000",
+    deposit: "NGN 27,800",
+    date: "Jan 6, 2022 • 09:21",
+    voucher: "69942Z",
+    success: failed,
+    model: "Mazda - Model Q",
+  },
+  {
+    img: Avatar2,
+    heading: "Phoenix Baker",
+    number: "+234 803 0000",
+    deposit: "NGN 27,800",
+    date: "Jan 6, 2022 • 09:21",
+    voucher: "69942Z",
+    success: failed,
+    model: "Mazda - Model Q",
+  },
+];
+
+export const content = {
+  first: {
+    image: boxWallet,
+    text: "Total outstanding balance",
+    number: "6,709,288",
+  },
+  second: {
+    image: boxMoney,
+    text: "Total repayment pending ",
+    number: "72,864",
+  },
+  third: {
+    image: boxTransaction,
+    text: "Total trasaction counts",
+    number: "3,062",
+  },
+};
+
+export const reconcontent = {
+  first: {
+    image: group1,
+    text: "Total order transactions",
+    number: "6,708,321",
+  },
+  second: {
+    image: group2,
+    text: "Total collections",
+    number: "2,240,059",
+  },
+  third: {
+    image: "",
+    text: "Reconcile",
+    number: "53/100%",
+  },
+};
+
+export const defaultContent = {
+  first: {
+    image: boxWallet,
+    text: "Total default amount (NGN)",
+    number: "3,160,010",
+  },
+  second: {
+    image: boxMoney,
+    text: "Total default (NGN)",
+    number: "890,100",
+    icon: red,
+    percent: "10%",
+  },
+  third: {
+    image: boxTransaction,
+    text: "Total number of defaulters",
+    number: "316",
+    icon: green,
+    percent: "100%",
+  },
+};
+
+export const customercontent = {
+  first: {
+    text: "Total customers",
+    number: "2,420",
+    image: green,
+    percent: "40%",
+  },
+  second: {
+    text: "Total active customers",
+    number: "1,210",
+    image: red,
+    percent: "10%",
+  },
+  third: {
+    text: "Total defaulters",
+    number: "316",
+    image: green,
+    percent: "20%",
+  },
+};

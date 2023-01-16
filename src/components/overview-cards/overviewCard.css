@@ -1,0 +1,202 @@
+.overview-card-container {
+  margin-top: 58px;
+}
+
+.overview-name {
+  margin-bottom: 36px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  color: #222222;
+}
+
+.overview-layout {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+.filter {
+  display: flex;
+  justify-content: space-between;
+}
+.filter-button {
+  width: 169px;
+  height: 52px;
+
+  background: #ffffff;
+  border: 1.5px solid #dcdcdc;
+  border-radius: 10px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  letter-spacing: -0.02em;
+
+  color: #222222;
+  display: flex;
+  gap: 9px;
+  justify-content: center;
+  align-items: center;
+}
+.fulfil-button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 10px;
+  width: 97px;
+  height: 51px;
+  background: #014342;
+  border-radius: 10px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #ffffff;
+
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.reconcilation-button-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 40px;
+}
+.reconcilation-button-block-group {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.reconcilation-button-grey {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 15px;
+  gap: 10px;
+
+  position: absolute;
+  width: 139px;
+  height: 42px;
+  border: 0;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #101010;
+
+  background: #eaecf0;
+  border-radius: 8px;
+}
+
+.connect-erp {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 15px;
+  gap: 10px;
+
+  width: 151px;
+  height: 42px;
+  border: 0;
+
+  background: #ffbd2e;
+  border-radius: 8px;
+}
+.reconcilation-button-upload {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 15px;
+  gap: 10px;
+  border: 0;
+  width: 145px;
+  height: 42px;
+
+  color: #fff;
+  background: #80b539;
+  border-radius: 8px;
+}
+.reconcilation-button-connect {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 15px;
+  gap: 10px;
+
+  width: 181px;
+  height: 42px;
+  color: #fff;
+
+  background: #222222;
+  border-radius: 8px;
+}
+
+.modal-1 {
+  width: 480px;
+  height: 388px;
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  left: auto;
+  right: auto;
+  padding: 20px;
+  transform: translate(140%, 0%);
+  box-shadow: 0px 4px 20px rgba(34, 34, 34, 0.05);
+  -webkit-transform: translate(140%, 0%);
+  -moz-transform: translate(140%, 0%);
+  -ms-transform: translate(140%, 0%);
+  -o-transform: translate(140%, 0%);
+}
+
+.flex-modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.flex-modal div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.flex-modal div h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+
+  color: #000000;
+}
