@@ -101,33 +101,38 @@ const OverviewCard = ({
           )}
           <>
             <div className="overview-layout">
-              <OverViewCardBox
-                image={content.first.image}
-                text={content.first.text}
-                number={content.first.number}
-                customer={customer}
-                defaults={defaults}
-                percent={content.first.percent}
-                icon={content.first.icon}
-              />
-              <OverViewCardBox
-                image={content.second.image}
-                text={content.second.text}
-                number={content.second.number}
-                customer={customer}
-                defaults={defaults}
-                percent={content.second.percent}
-                icon={content.first.icon}
-              />
-              <OverViewCardBox
-                image={content.third.image}
-                text={content.third.text}
-                number={content.third.number}
-                customer={customer}
-                defaults={defaults}
-                percent={content.third.percent}
-                icon={content.third.icon}
-              />
+              {fulfilment || (
+                <>
+                  {" "}
+                  <OverViewCardBox
+                    image={content.first.image}
+                    text={content.first.text}
+                    number={content.first.number}
+                    customer={customer}
+                    defaults={defaults}
+                    percent={content.first.percent}
+                    icon={content.first.icon}
+                  />
+                  <OverViewCardBox
+                    image={content.second.image}
+                    text={content.second.text}
+                    number={content.second.number}
+                    customer={customer}
+                    defaults={defaults}
+                    percent={content.second.percent}
+                    icon={content.first.icon}
+                  />
+                  <OverViewCardBox
+                    image={content.third.image}
+                    text={content.third.text}
+                    number={content.third.number}
+                    customer={customer}
+                    defaults={defaults}
+                    percent={content.third.percent}
+                    icon={content.third.icon}
+                  />
+                </>
+              )}
             </div>
           </>
         </div>
@@ -193,9 +198,7 @@ const OverviewCard = ({
             <div>
               <img src={boxTransaction} alt="" />
             </div>
-            <div>
-              <button>submit</button>
-            </div>
+            <div></div>
           </div>
         </Modal>
       </>
